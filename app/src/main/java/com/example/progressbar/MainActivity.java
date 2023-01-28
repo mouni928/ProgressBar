@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             int seek=0;
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+
                 seek=i;
             }
 
